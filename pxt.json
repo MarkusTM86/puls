@@ -1,5 +1,5 @@
 {
-    "name": "BPM #3",
+    "name": "Puls egna block",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -12,8 +12,8 @@
         "main.ts",
         "README.md",
         "Puls.ts",
-        "custom.ts",
-        "main.py"
+        "main.py",
+        "custom.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -25,5 +25,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
