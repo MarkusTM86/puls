@@ -12,6 +12,7 @@
         "main.ts",
         "README.md",
         "Puls.ts",
+        "custom.ts",
         "main.py"
     ],
     "testFiles": [
