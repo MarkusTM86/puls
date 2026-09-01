@@ -59,10 +59,5 @@ namespace puls {
 
         serial.writeValue("sensor", sensor)
 
-        if (sensorAktiv) {
-            serial.writeValue("aktiv", 1)
-        } else {
-            serial.writeValue("aktiv", 0)
-        }
     }
 }
