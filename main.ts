@@ -1,3 +1,7 @@
 basic.forever(function () {
-    Puls.Hjärtslag()
+    if (puls.mellan(520, 650)) {
+        basic.showIcon(IconNames.Heart)
+    } else {
+        basic.clearScreen()
+    }
 })

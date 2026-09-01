@@ -53,4 +53,16 @@ namespace puls {
 
         return false
     }
+    //% block="mät puls"
+    export function matPuls(): void {
+        let sensor = pins.analogReadPin(AnalogPin.P0)
+
+        serial.writeValue("sensor", sensor)
+
+        if (sensorAktiv) {
+            serial.writeValue("aktiv", 1)
+        } else {
+            serial.writeValue("aktiv", 0)
+        }
+    }
 }
